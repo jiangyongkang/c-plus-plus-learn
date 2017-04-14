@@ -54,6 +54,12 @@ set(LINE_CLASS "chapter-5/line_test.cpp" chapter-5/Line.cpp chapter-5/Line.h)
 # 拷贝构造函数
 set(COPY_LINE_CLASS "chapter-6/copy_line_test.cpp" chapter-6/CopyLine.cpp chapter-6/CopyLine.h)
 
+# 友元函数
+set(FRIEND_CLASS "chapter-7/box_test.cpp" chapter-7/Box.cpp chapter-7/Box.h)
+
+# 静态成员
+set(STATIC_CLASS "chapter-8/box_test.cpp" chapter-8/Box.cpp chapter-8/Box.h)
+
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -72,3 +78,5 @@ add_executable(box ${BOX_CLASS})
 add_executable(base ${BASE_CLASS})
 add_executable(line ${LINE_CLASS})
 add_executable(copy_line ${COPY_LINE_CLASS})
+add_executable(friend ${FRIEND_CLASS})
+add_executable(static ${STATIC_CLASS})
