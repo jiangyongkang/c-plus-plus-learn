@@ -46,13 +46,13 @@ set(STRUCT_FILES "chapter-2/struct.cpp")
 set(BOX_CLASS "chapter-3/box_test.cpp" chapter-3/Box.cpp chapter-3/Box.h)
 
 # 类访问修饰符
-set(BASE_CLASS "chapter-3/base_test.cpp" chapter-3/Base.cpp chapter-3/Base.h)
+set(BASE_CLASS "chapter-4/base_test.cpp" chapter-4/Base.cpp chapter-4/Base.h)
 
 # 类的构造函数和析构函数
-set(LINE_CLASS "chapter-3/line_test.cpp" chapter-3/Line.cpp chapter-3/Line.h)
+set(LINE_CLASS "chapter-5/line_test.cpp" chapter-5/Line.cpp chapter-5/Line.h)
 
 # 拷贝构造函数
-set(COPY_LINE_CLASS "chapter-3/copy_line_test.cpp" chapter-3/CopyLine.cpp chapter-3/CopyLine.h)
+set(COPY_LINE_CLASS "chapter-6/copy_line_test.cpp" chapter-6/CopyLine.cpp chapter-6/CopyLine.h)
 
 
 add_executable(main ${MAIN_FILES})

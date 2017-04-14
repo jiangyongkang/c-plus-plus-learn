@@ -6,9 +6,10 @@
  */
 #include <iostream>
 #include "CopyLine.h"
+
 using namespace std;
 
-int main(void){
+int main(void) {
     const CopyLine line(10);
     CopyLine copyLine(line);        //调用拷贝构造函数
     CopyLine copyLine1 = copyLine;  //调用拷贝构造函数
