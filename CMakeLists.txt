@@ -51,6 +51,9 @@ set(BASE_CLASS "chapter-3/base_test.cpp" chapter-3/Base.cpp chapter-3/Base.h)
 # 类的构造函数和析构函数
 set(LINE_CLASS "chapter-3/line_test.cpp" chapter-3/Line.cpp chapter-3/Line.h)
 
+# 拷贝构造函数
+set(COPY_LINE_CLASS "chapter-3/copy_line_test.cpp" chapter-3/CopyLine.cpp chapter-3/CopyLine.h)
+
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -68,3 +71,4 @@ add_executable(struct ${STRUCT_FILES})
 add_executable(box ${BOX_CLASS})
 add_executable(base ${BASE_CLASS})
 add_executable(line ${LINE_CLASS})
+add_executable(copy_line ${COPY_LINE_CLASS})
