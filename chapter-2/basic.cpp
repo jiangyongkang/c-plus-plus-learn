@@ -1,3 +1,9 @@
+/**
+ * Created by CLion.
+ * User: vincent
+ * Date: 2017/4/15
+ * Common: 基本数据类型
+ */
 #include <iostream>
 
 using namespace std;

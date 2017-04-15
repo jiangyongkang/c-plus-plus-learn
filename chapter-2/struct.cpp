@@ -2,9 +2,10 @@
  * 数据结构
  * 数组允许定义可存储相同类型数据项的变量，但是结构是中另一种用户自定义的可用的数据类型，它允许存储不同类型的数据项
  *
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
  * Date 2017/4/9
+ * Common: 结构体
  */
 #include <iostream>
 

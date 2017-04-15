@@ -1,7 +1,7 @@
 /**
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
- * Date 2017/4/14
+ * Date: 2017/4/14
  * Common: 友元函数
  */
 

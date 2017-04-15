@@ -1,7 +1,7 @@
 /**
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
- * Date 2017/4/13
+ * Date: 2017/4/13
  * Common: 类的声明、定义、成员变量、函数
  */
 #include <iostream>

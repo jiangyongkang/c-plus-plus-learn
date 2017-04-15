@@ -1,3 +1,9 @@
+/**
+ * Created by CLion.
+ * User: vincent
+ * Date: 2017/4/15
+ * Common: 常量的声明和定义
+ */
 #include <iostream>
 
 using namespace std;

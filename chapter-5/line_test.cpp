@@ -1,7 +1,7 @@
 /**
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
- * Date 2017/4/13
+ * Date： 2017/4/13
  * Common: 构造函数和析构函数
  */
 #include <iostream>

@@ -1,7 +1,7 @@
 /**
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
- * Date 2017/4/13
+ * Date: 2017/4/13
  * Common: 类的访问修饰符
  */
 #include <iostream>

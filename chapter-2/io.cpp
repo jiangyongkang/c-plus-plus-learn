@@ -1,7 +1,8 @@
 /**
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
- * Date 2017/4/9
+ * Date: 2017/4/9
+ * Common: 流
  */
 #include <iostream>
 

@@ -1,3 +1,9 @@
+/**
+ * Created by CLion.
+ * User: vincent
+ * Date: 2017/4/15
+ * Common: 运算符
+ */
 #include <iostream>
 
 using namespace std;

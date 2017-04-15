@@ -1,7 +1,7 @@
 /**
- * Created by IDEA.
+ * Created by CLion.
  * User: vincent
- * Date 2017/4/14
+ * Date: 2017/4/14
  * Common: TODO:拷贝构造函数
  */
 #include <iostream>

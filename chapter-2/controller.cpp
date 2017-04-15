@@ -1,5 +1,8 @@
 /**
- * Created by vincent on 2017/4/8.
+ * Created by CLion.
+ * User: vincent
+ * Date: 2017/4/8
+ * Common: 条件控制语句
  */
 #include <iostream>
 

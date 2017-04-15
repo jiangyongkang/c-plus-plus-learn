@@ -63,6 +63,9 @@ set(STATIC_CLASS "chapter-8/box_test.cpp" chapter-8/Box.cpp chapter-8/Box.h)
 # 继承
 set(EXTENS_CLASS "chapter-9/main.cpp" chapter-9/Shape.cpp chapter-9/Shape.h chapter-9/PaintCost.cpp chapter-9/PaintCost.h chapter-9/Rectangle.cpp chapter-9/Rectangle.h)
 
+# 重载
+set(PRINT_CLASS "chapter-10/main.cpp" chapter-10/PrintData.cpp chapter-10/PrintData.h)
+
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -84,3 +87,4 @@ add_executable(copy_line ${COPY_LINE_CLASS})
 add_executable(friend ${FRIEND_CLASS})
 add_executable(static ${STATIC_CLASS})
 add_executable(extens ${EXTENS_CLASS})
+add_executable(print ${PRINT_CLASS})
