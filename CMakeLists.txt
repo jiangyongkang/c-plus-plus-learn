@@ -66,6 +66,9 @@ set(EXTENS_CLASS "chapter-9/main.cpp" chapter-9/Shape.cpp chapter-9/Shape.h chap
 # 重载
 set(PRINT_CLASS "chapter-10/main.cpp" chapter-10/PrintData.cpp chapter-10/PrintData.h)
 
+# 多态
+set(POLYMORPHISM_CLASS "chapter-11/main.cpp" chapter-11/Shape.cpp chapter-11/Shape.h chapter-11/Rectangle.cpp chapter-11/Rectangle.cpp chapter-11/Triangle.cpp chapter-11/Triangle.h)
+
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -88,3 +91,4 @@ add_executable(friend ${FRIEND_CLASS})
 add_executable(static ${STATIC_CLASS})
 add_executable(extens ${EXTENS_CLASS})
 add_executable(print ${PRINT_CLASS})
+add_executable(polymorphism ${POLYMORPHISM_CLASS})
