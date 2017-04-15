@@ -69,6 +69,11 @@ set(PRINT_CLASS "chapter-10/main.cpp" chapter-10/PrintData.cpp chapter-10/PrintD
 # 多态
 set(POLYMORPHISM_CLASS "chapter-11/main.cpp" chapter-11/Shape.cpp chapter-11/Shape.h chapter-11/Rectangle.cpp chapter-11/Rectangle.cpp chapter-11/Triangle.cpp chapter-11/Triangle.h)
 
+# 数据抽象
+set(DATA_ABSTRACT_CLASS "chapter-12/main.cpp" chapter-12/Adder.cpp chapter-12/Adder.h)
+
+# 接口（抽象类）
+set(INTERFACE_CLASS "chapter-13/main.cpp" chapter-13/Shape.cpp chapter-13/Shape.h chapter-13/Rectangle.cpp chapter-13/Rectangle.h chapter-13/Triangle.cpp chapter-13/Triangle.h)
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -92,3 +97,5 @@ add_executable(static ${STATIC_CLASS})
 add_executable(extens ${EXTENS_CLASS})
 add_executable(print ${PRINT_CLASS})
 add_executable(polymorphism ${POLYMORPHISM_CLASS})
+add_executable(data_abstract ${DATA_ABSTRACT_CLASS})
+add_executable(inteface ${INTERFACE_CLASS})
