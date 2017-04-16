@@ -75,6 +75,10 @@ set(DATA_ABSTRACT_CLASS "chapter-1/chapter-1-12/main.cpp" chapter-1/chapter-1-12
 # 接口（抽象类）
 set(INTERFACE_CLASS "chapter-1/chapter-1-13/main.cpp" chapter-1/chapter-1-13/Shape.cpp chapter-1/chapter-1-13/Shape.h chapter-1/chapter-1-13/Rectangle.cpp chapter-1/chapter-1-13/Rectangle.h chapter-1/chapter-1-13/Triangle.cpp chapter-1/chapter-1-13/Triangle.h)
 
+# 文件读写
+set(IN_OUT_FILES "chapter-2/chapter-2-1/main.cpp")
+
+
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
 add_executable(enum ${ENUM_FILES})
@@ -99,3 +103,4 @@ add_executable(print ${PRINT_CLASS})
 add_executable(polymorphism ${POLYMORPHISM_CLASS})
 add_executable(data_abstract ${DATA_ABSTRACT_CLASS})
 add_executable(inteface ${INTERFACE_CLASS})
+add_executable(in_out ${IN_OUT_FILES})
