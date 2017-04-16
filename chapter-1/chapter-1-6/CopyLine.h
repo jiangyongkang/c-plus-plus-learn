@@ -8,7 +8,7 @@
 #ifndef LEARN_COPYLINE_H
 #define LEARN_COPYLINE_H
 
-#include "../chapter-5/Line.h"
+#include "../chapter-1-5/Line.h"
 
 /**
  * 拷贝构造函数是一种特殊的构造函数，它在创建对象时，是使用同一类中之前创建的对象来初始化新创建的对象。

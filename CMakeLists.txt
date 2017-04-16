@@ -4,76 +4,76 @@ project(learn)
 set(CMAKE_CXX_STANDARD 11)
 
 # Hello World
-set(MAIN_FILES "chapter-1/main.cpp")
+set(MAIN_FILES "chapter-1/chapter-1-1/main.cpp")
 
 # 基本数据类型
-set(BASIC_FILES "chapter-2/basic.cpp")
+set(BASIC_FILES "chapter-1/chapter-1-2/basic.cpp")
 
 # 枚举
-set(ENUM_FILES "chapter-2/enum.cpp")
+set(ENUM_FILES "chapter-1/chapter-1-2/enum.cpp")
 
 # c常量
-set(CONSTANT_FILES "chapter-2/constant.cpp")
+set(CONSTANT_FILES "chapter-1/chapter-1-2/constant.cpp")
 
 # 运算符
-set(OPERATORS_FILES "chapter-2/operators.cpp")
+set(OPERATORS_FILES "chapter-1/chapter-1-2/operators.cpp")
 
 # 控制语句
-set(CONTROLLER_FILES "chapter-2/controller.cpp")
+set(CONTROLLER_FILES "chapter-1/chapter-1-2/controller.cpp")
 
 # 函数
-set(FUNCTION_FILES "chapter-2/function.cpp")
+set(FUNCTION_FILES "chapter-1/chapter-1-2/function.cpp")
 
 # 随机数
-set(RANDOM_FILES "chapter-2/random.cpp")
+set(RANDOM_FILES "chapter-1/chapter-1-2/random.cpp")
 
 # 数组
-set(ARRAY_FILES "chapter-2/array.cpp")
+set(ARRAY_FILES "chapter-1/chapter-1-2/array.cpp")
 
 # 字符串
-set(STRING_FILES "chapter-2/string.cpp")
+set(STRING_FILES "chapter-1/chapter-1-2/string.cpp")
 
 # 日期时间
-set(DATE_TIME_FILES "chapter-2/data_time.cpp")
+set(DATE_TIME_FILES "chapter-1/chapter-1-2/data_time.cpp")
 
 # 输入和输出
-set(IO_FILES "chapter-2/io.cpp")
+set(IO_FILES "chapter-1/chapter-1-2/io.cpp")
 
 # 数据结构
-set(STRUCT_FILES "chapter-2/struct.cpp")
+set(STRUCT_FILES "chapter-1/chapter-1-2/struct.cpp")
 
 # 类成员函数
-set(BOX_CLASS "chapter-3/box_test.cpp" chapter-3/Box.cpp chapter-3/Box.h)
+set(BOX_CLASS "chapter-1/chapter-1-3/main.cpp" chapter-1/chapter-1-3/Box.cpp chapter-1/chapter-1-3/Box.h)
 
 # 类访问修饰符
-set(BASE_CLASS "chapter-4/base_test.cpp" chapter-4/Base.cpp chapter-4/Base.h)
+set(BASE_CLASS "chapter-1/chapter-1-4/main.cpp" chapter-1/chapter-1-4/Base.cpp chapter-1/chapter-1-4/Base.h)
 
 # 类的构造函数和析构函数
-set(LINE_CLASS "chapter-5/line_test.cpp" chapter-5/Line.cpp chapter-5/Line.h)
+set(LINE_CLASS "chapter-1/chapter-1-5/main.cpp" chapter-1/chapter-1-5/Line.cpp chapter-1/chapter-1-5/Line.h)
 
 # 拷贝构造函数
-set(COPY_LINE_CLASS "chapter-6/copy_line_test.cpp" chapter-6/CopyLine.cpp chapter-6/CopyLine.h)
+set(COPY_LINE_CLASS "chapter-1/chapter-1-6/main.cpp" chapter-1/chapter-1-6/CopyLine.cpp chapter-1/chapter-1-6/CopyLine.h)
 
 # 友元函数
-set(FRIEND_CLASS "chapter-7/box_test.cpp" chapter-7/Box.cpp chapter-7/Box.h)
+set(FRIEND_CLASS "chapter-1/chapter-1-7/main.cpp" chapter-1/chapter-1-7/Box.cpp chapter-1/chapter-1-7/Box.h)
 
 # 静态成员
-set(STATIC_CLASS "chapter-8/box_test.cpp" chapter-8/Box.cpp chapter-8/Box.h)
+set(STATIC_CLASS "chapter-1/chapter-1-8/main.cpp" chapter-1/chapter-1-8/Box.cpp chapter-1/chapter-1-8/Box.h)
 
 # 继承
-set(EXTENS_CLASS "chapter-9/main.cpp" chapter-9/Shape.cpp chapter-9/Shape.h chapter-9/PaintCost.cpp chapter-9/PaintCost.h chapter-9/Rectangle.cpp chapter-9/Rectangle.h)
+set(EXTENS_CLASS "chapter-1/chapter-1-9/main.cpp" chapter-1/chapter-1-9/Shape.cpp chapter-1/chapter-1-9/Shape.h chapter-1/chapter-1-9/PaintCost.cpp chapter-1/chapter-1-9/PaintCost.h chapter-1/chapter-1-9/Rectangle.cpp chapter-1/chapter-1-9/Rectangle.h)
 
 # 重载
-set(PRINT_CLASS "chapter-10/main.cpp" chapter-10/PrintData.cpp chapter-10/PrintData.h)
+set(PRINT_CLASS "chapter-1/chapter-1-10/main.cpp" chapter-1/chapter-1-10/PrintData.cpp chapter-1/chapter-1-10/PrintData.h)
 
 # 多态
-set(POLYMORPHISM_CLASS "chapter-11/main.cpp" chapter-11/Shape.cpp chapter-11/Shape.h chapter-11/Rectangle.cpp chapter-11/Rectangle.cpp chapter-11/Triangle.cpp chapter-11/Triangle.h)
+set(POLYMORPHISM_CLASS "chapter-1/chapter-1-11/main.cpp" chapter-1/chapter-1-11/Shape.cpp chapter-1/chapter-1-11/Shape.h chapter-1/chapter-1-11/Rectangle.cpp chapter-1/chapter-1-11/Rectangle.cpp chapter-1/chapter-1-11/Triangle.cpp chapter-1/chapter-1-11/Triangle.h)
 
 # 数据抽象
-set(DATA_ABSTRACT_CLASS "chapter-12/main.cpp" chapter-12/Adder.cpp chapter-12/Adder.h)
+set(DATA_ABSTRACT_CLASS "chapter-1/chapter-1-12/main.cpp" chapter-1/chapter-1-12/Adder.cpp chapter-1/chapter-1-12/Adder.h)
 
 # 接口（抽象类）
-set(INTERFACE_CLASS "chapter-13/main.cpp" chapter-13/Shape.cpp chapter-13/Shape.h chapter-13/Rectangle.cpp chapter-13/Rectangle.h chapter-13/Triangle.cpp chapter-13/Triangle.h)
+set(INTERFACE_CLASS "chapter-1/chapter-1-13/main.cpp" chapter-1/chapter-1-13/Shape.cpp chapter-1/chapter-1-13/Shape.h chapter-1/chapter-1-13/Rectangle.cpp chapter-1/chapter-1-13/Rectangle.h chapter-1/chapter-1-13/Triangle.cpp chapter-1/chapter-1-13/Triangle.h)
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
