@@ -81,6 +81,9 @@ set(IN_OUT_FILES "chapter-2/chapter-2-1/main.cpp")
 # 异常处理
 set(ERROR_FILES "chapter-2/chapter-2-2/main.cpp")
 
+# 动态内存
+set(NEW_FILES "chapter-2/chapter-2-3/main.cpp")
+
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -108,3 +111,4 @@ add_executable(data_abstract ${DATA_ABSTRACT_CLASS})
 add_executable(inteface ${INTERFACE_CLASS})
 add_executable(in_out ${IN_OUT_FILES})
 add_executable(error ${ERROR_FILES})
+add_executable(new ${NEW_FILES})
