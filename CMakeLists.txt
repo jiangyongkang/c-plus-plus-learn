@@ -84,6 +84,12 @@ set(ERROR_FILES "chapter-2/chapter-2-2/main.cpp")
 # 动态内存
 set(NEW_FILES "chapter-2/chapter-2-3/main.cpp")
 
+# 命名空间
+set(NAMESPACE_FILES "chapter-2/chapter-2-4/main.cpp")
+
+# 模板
+set(TEMPLATE_FILES "chapter-2/chapter-2-5/main.cpp" chapter-2/chapter-2-5/Stack.cpp chapter-2/chapter-2-5/Stack.h)
+
 
 add_executable(main ${MAIN_FILES})
 add_executable(basic ${BASIC_FILES})
@@ -112,3 +118,5 @@ add_executable(inteface ${INTERFACE_CLASS})
 add_executable(in_out ${IN_OUT_FILES})
 add_executable(error ${ERROR_FILES})
 add_executable(new ${NEW_FILES})
+add_executable(namespace ${NAMESPACE_FILES})
+add_executable(template ${TEMPLATE_FILES})
